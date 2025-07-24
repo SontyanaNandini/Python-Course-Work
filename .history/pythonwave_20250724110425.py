@@ -75,8 +75,5 @@ part=x[s_i:e_i+1]
 print(part)
 
 # b is greater than a by one
-a=7
-b=6
-c=b-a
-c=c==1
-print(c)
+a=2
+b=3
