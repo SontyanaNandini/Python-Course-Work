@@ -1,0 +1,2 @@
+/**COMPARISON OPERATORS*/
+console.log(60>30)

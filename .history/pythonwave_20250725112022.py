@@ -126,7 +126,5 @@ print(first_part+last_part)
 w="prime"
 i=3
 c='z'
-if 0<=i<len(w):
-  w=w[:i]+c+w[i+1:]
-  print(w)
-
+if 0<=i<len(w)
+w=w[:i]+c+w[i+1:]

@@ -122,11 +122,4 @@ length_w2=len(w2)
 first_part="*"*length_w2
 last_part=w1[length_w2:]
 print(first_part+last_part)
-#prime ->z
-w="prime"
-i=3
-c='z'
-if 0<=i<len(w):
-  w=w[:i]+c+w[i+1:]
-  print(w)
-
+#pri

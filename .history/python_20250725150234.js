@@ -128,3 +128,4 @@ console.log(typeof userAge)
 console.log(`welcome ${userName} to GFG`);
 console.log(`Thanks for letting us know your age`);
 console.log(`You are born in the year ${yearOfBirth}`);
+

@@ -81,52 +81,8 @@ c=b-a
 c=c==1
 print(c)
 # second word in first word
-w1="Unkind"
-w2="Un"
+w1="Midterm"
+w2="Mid"
 length_w1=len(w1)
 length_w2=len(w2)
-print(length_w2-1)
-# print * instead of 1st &last chars
-a="qwerty@2020"
-length_a=len(a)
-first_char=a[0]
-last_char=a[-1]
-result=first_char+ "* "*(length_a-2 )+ last_char
-print(result)
-#half string
-n="amazon"
-length=len(n)
-half_length=length/2
-half_length=int(half_length)
-part=n[:half_length]
-print(part)
-# first_2_char *** last_2_char
-n="message"
-length=len(n)
-no_of_char=length-4
-first_char=n[:2]
-last_char=n[-2:]
-result=first_char+"*"*no_of_char+last_char
-print(result)
-#skip letters
-word="Globe"
-n=2
-first_char=word[:n]
-last_char=word[n+1:]
-result=first_char+last_char
-print(result)
-#w1 and w2
-w1="SubWay"
-w2="Sub"
-length_w2=len(w2)
-first_part="*"*length_w2
-last_part=w1[length_w2:]
-print(first_part+last_part)
-#prime ->z
-w="prime"
-i=3
-c='z'
-if 0<=i<len(w):
-  w=w[:i]+c+w[i+1:]
-  print(w)
-
+print(l)

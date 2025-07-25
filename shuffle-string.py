@@ -1,9 +1,8 @@
-string = "abcde"
-indexes = [4, 3, 2, 1, 0]  # Defined once
+string = input()
+n = len(string)
+
 shuffle_string = ""
-
-for i in range(len(string)):
-    shuffle_string = shuffle_string + string[indexes[i]]
-
+for i in range(n):
+    index = int(input())
+    shuffle_string = shuffle_string+string[index]
 print(shuffle_string)
-
